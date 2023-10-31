@@ -1,0 +1,79 @@
+.font {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+}
+
+p, li{
+    color: rgba(245, 245, 245, 0.699);
+}
+
+body { 
+    background: lightblue url("images/fond\ image\ circuit.png") no-repeat fixed center; 
+  }
+
+.carré {
+    margin-top: 10%;
+    margin-bottom: 1%; 
+    box-shadow: 0 5px 10px rgb(0, 0, 0);
+    transition: 0.3s;
+    width: 60%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    display: block;
+}
+
+.carré:hover {
+    box-shadow: 0 10px 20px rgb(0, 0, 0);
+}
+
+
+.contenu-carré {
+    padding: 2px 16px;
+}
+
+.sec1, .sec2, .sec3, .sec4 {
+    margin-bottom: 5%;
+}
+
+a {
+    color: red;
+    text-align: center;
+}
+
+.competence img{
+    width: 200px;
+    padding-bottom: 100px;
+}
+
+.competence{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 130px;
+    margin-left: 130px;
+    margin-top: 50px;
+    
+}
+
+.competence .img_competence{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+   display: flex;
+   justify-content: center;
+   font-size:40px;
+   background-color: black;
+   height: 70px;
+}
+
+.footer a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 30px;
+}
